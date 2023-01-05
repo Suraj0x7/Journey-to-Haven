@@ -1,0 +1,257 @@
+.body{
+	margin: 0px;
+	padding: 0px;
+	background: url("image/background.jpg");
+	background-size: cover;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: yellow;
+	text-decoration: none;
+}
+a:active{
+color: pink;
+text-decoration;
+}
+a:hover{
+	color: red;
+}
+
+
+.bubbles img{
+  width: 50px;  
+  animation: water 7s linear infinite;
+}
+.bubbles{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	bottom: -70px;
+}
+@keyframes water{
+	0%{
+		transform: translatey(0);
+		opacity: 0;
+	}
+	50%{
+		
+		opacity: 1;
+	}
+	70%{
+		
+		opacity: 1;
+	}
+	100%{
+		transform: translatey(-80vh);
+		opacity: 0;
+	}
+}
+.bubbles img:nth-child(1){
+   animation-delay: 2s;
+   width: 25px;
+}
+.bubbles img:nth-child(2){
+   animation-delay: 1s;
+}
+.bubbles img:nth-child(3){
+   animation-delay: 3s;
+   width: 25px;
+}
+.bubbles img:nth-child(3){
+   animation-delay: 4s;
+}
+.bubbles img:nth-child(5){
+   animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+   animation-delay: 6s;
+   width: 20px;
+}
+.bubbles img:nth-child(7){
+   animation-delay: 7s;
+   width: 35px;
+}
+.main{
+	width: 1000px;
+	margin: auto;
+	border: 1px solid red;
+}
+.row1{
+	width: 1000px;
+	height: 100vh;
+	background: url(image/ii.jpg) fixed ;
+	background-size: cover;
+	border-bottom: 10px solid white;
+}
+.row1trans{
+	width: 1000px;
+	height: 100vh;
+	background: rgba(0,0,0,0.5);
+}
+.row1logo{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.row1tagline{
+	width: 400px;
+	margin: auto;
+	font-size: 35px;
+	text-align: center;
+	border-top:  1px solid white;
+	border-bottom: 1px solid white;
+	margin-top: 60px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: white;
+}
+.menu{
+	color: white;
+	margin: 280px;
+	width: 700px;
+	margin-top: 200px;
+}
+.clear{
+	clear:both;
+}
+.menuitems{
+	padding: 10px;
+	border-right: 1px solid white;
+	margin-left: 30px;
+	padding-right: 30px;
+	float: left;
+}
+.row2{
+	width: 1000px;
+	height: 850px;
+	background: url(image/taj.jpg) fixed;
+}
+.heading{
+	width: 1000px;
+	height: 300px;
+	background: rgba(0,0,0,0.5);
+}
+.homeji{
+	margin:auto;
+	margin-top: 50px;
+	color: white;
+	display: table;
+	border: 1px solid white;
+	padding: 15px;
+	position: relative;
+	top: 40px;
+}
+.content{
+	width: 1000px;
+	height: auto;
+	background-color: white;
+    <! overflow: scroll;>
+}
+.bud{
+	display: flex;
+}
+.image-section img{
+	height: 200px;
+	width: 300px;
+	border-radius: 1px 10px;
+	margin-top: 20px;
+	background-color: 
+}
+.written-section{
+    border:1px solid red;
+    margin-top: 20px;
+    background-color: #895755;
+}
+.written-section1{
+	 border:1px solid red;
+    margin-top: 20px;
+	 background-color:#796f53;
+}
+.written-section2{
+	 border:1px solid red;
+    margin-top: 20px;
+	 background-color:#537969;
+}
+.written-section3{
+	 border:1px solid red;
+    margin-top: 20px;
+	 background-color:#795379;
+}
+.written-section4{
+	 border:1px solid red;
+    margin-top: 20px;
+	 background-color:#5e5379;
+}
+.written-sectionam{
+	 border:1px solid red;
+    margin-top: 20px;
+	 background-color:#3f8771;
+}
+.row3{
+	width: 1000px;
+	height: 850px;
+	background: url(image/i.jpg) fixed;
+}
+.row3heading{
+	width: 1000px;
+	height: 300px;
+	background: rgba(0,0,0,0.5);
+}
+.row3homeji{
+	margin:auto;
+	margin-top: 50px;
+	color: white;
+	display: table;
+	border: 1px solid white;
+	padding: 15px;
+	position: relative;
+	top: 40px;
+}
+.row3content{
+	width: 1000px;
+	height: auto;
+	background-color: white;
+}
+.row4{
+	width: 1000px;
+	height: 850px;
+	background: url(image/i2.jpg) fixed;
+}
+.row4heading{
+	width: 1000px;
+	height: 300px;
+	background: rgba(0,0,0,0.5);
+}
+.row4homeji{
+	margin:auto;
+	margin-top: 50px;
+	color: white;
+	display: table;
+	border: 1px solid white;
+	padding: 15px;
+	position: relative;
+	top: 40px;
+}
+.row4content{
+	width: 1000px;
+	height: auto;
+	background-color: white;
+}
+
+.fa{
+	width: 120px;
+	background: blue;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	right: 0px;
+	top: 20%;
+}
+
